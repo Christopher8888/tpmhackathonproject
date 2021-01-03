@@ -47,6 +47,8 @@ body{
     padding: 15px;
     border-bottom: 1px solid rgba (0,0,0,0.05);
     border-top: 1px solid rgba (225,225,225,0.05);
+    font-size: 20px;
+    padding-bottom: 50px;
 }
 
 .wrapper .sidebar ul li a {
@@ -60,12 +62,9 @@ body{
 }
 
 .wrapper .sidebar ul li :hover {
-    background : #FFF5CF;
+    color: #F9C80E;
 }
 
-.wrapper .sidebar ul li :hover {
-    color:#142835;
-}
 
 .wrapper .main-content {
     width: 100%;
@@ -155,15 +154,16 @@ body{
 }
 .delete-btn {
 
-    width: 20px;
+    width: 22px;
     height: 10px;
     background: red;
     color: #fff;
     font-size: 20px;
     font-weight: 600;
-    
+    display: flex;
+    justify-content: center;
     text-align: center;
-    padding-bottom: 20px;
+    padding-bottom: 22px;
     border-radius: 50%;
     cursor: pointer;
 }
@@ -178,6 +178,7 @@ background: #132735;
 border-radius: 31px;
 border-color: #83BFFF;
 margin-bottom: 10px;
+cursor: pointer;
     
 }
 
@@ -241,7 +242,7 @@ margin-bottom: 10px;
     width: 30px;
     height: 30px;
     background: #222;
-    color: #fff;
+    color:  #ffff;
     font-size: 25px;
     font-weight: 600;
     line-height: 30px;
@@ -270,6 +271,7 @@ margin-bottom: 10px;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.25);
     border-radius: 31px;
     margin-bottom: 10px;
+    cursor: pointer;
 }
 
 /* +++++++++++++++++++++++ */

@@ -47,6 +47,9 @@ body{
     padding: 15px;
     border-bottom: 1px solid rgba (0,0,0,0.05);
     border-top: 1px solid rgba (225,225,225,0.05);
+    font-size: 20px;
+    padding-bottom: 50px;
+   
 }
 
 .wrapper .sidebar ul li a {
@@ -60,12 +63,10 @@ body{
 }
 
 
-.wrapper .sidebar ul li :hover {
-    background : #FFF5CF;
-}
+
 
 .wrapper .sidebar ul li :hover {
-    color:#142835;
+    color: #F9C80E;
 }
 
 .wrapper .main-content {
@@ -146,6 +147,7 @@ body{
     border:none;
     border-radius: 5px;
     margin-left: 5px;
+    color: #ffffff;
 }
 
 
